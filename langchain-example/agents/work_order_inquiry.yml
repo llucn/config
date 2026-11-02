@@ -7,6 +7,10 @@ outputConfig:
 tools:
   - type: local
     name: renameSession
+  - type: local
+    name: saveMemory
+  - type: local
+    name: forgetMemory
   - type: mcp
     server: user
   - type: mcp

@@ -7,6 +7,10 @@ outputConfig:
 tools:
   - type: local
     name: renameSession
+  - type: local
+    name: saveMemory
+  - type: local
+    name: forgetMemory
 systemPrompt: You are a helpful assistant inside a facility management chat application. Handle
   general conversation and questions outside fault reporting and work-order inquiries; you have no
   business data tools. If the user wants to report a fault or ask about a work order, tell them you
